@@ -8,6 +8,66 @@
 	--shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* --- ESTILOS PARA VISUALIZACIÓN DE FRACCIONES --- */
+.fraction-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.pizza-container {
+    margin: 1rem 0;
+    text-align: center;
+
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.rectangle-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.rectangle-container svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.fraction-visual ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.fraction-visual li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .fraction-visual {
+        padding: 0.75rem;
+    }
+    
+    .pizza-container svg {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .fraction-visual ul {
+        padding-left: 1rem;
+    }
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;

@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="content-header">
-        <a href="index.html" class="back-link">← Vulver a la Introducción</a>
+        <a href="index.html" class="back-link">← Volver a la Introducción</a>
         <h1>📜 Definiciones y Fundamentos</h1>
     </header>
 
@@ -30,23 +30,49 @@
 
                 <div class="example-container">
                     <h4>Ejemplo 1: Partes de una Pizza (Paso a Paso)</h4>
-                    <ul>
-                        <li><strong>Situación:</strong> Una pizza se corta en <strong>8</strong> porciones iguales. Tomamos <strong>3</strong> porciones.</li>
-                        <li><strong>Numerador (3):</strong> Indica las partes que se toman o se consideran (las partes que comstrongos).</li>
-                        <li><strong>Denominador (8):</strong> Indica el total de partes iguales en que se divide el todo.</li>
-                        <li><strong>Fracción:</strong> $$ \frac{3}{8} $$ (Tres octavos).</li>
-                    </ul>
+                    <div class="fraction-visual">
+                        <div class="pizza-container">
+                            <img src="./imagenes/3-8.png" alt="3-8">
+                        </div>
+                        <ul>
+                            <li><strong>Situación:</strong> Una pizza se corta en <strong>8</strong> porciones iguales. Tomamos <strong>3</strong> porciones.</li>
+                            <li><strong>Numerador (3):</strong> Indica las partes que se toman o se consideran (las partes que comemos).</li>
+                            <li><strong>Denominador (8):</strong> Indica el total de partes iguales en que se divide el todo.</li>
+                            <li><strong>Fracción:</strong> $$ \frac{3}{8} $$ (Tres octavos).</li>
+                        </ul>
+                    </div>
 
                     <h4>Ejemplo 2: Representación Gráfica (Paso a Paso)</h4>
-                    <ul>
-                        <li><strong>Fracción:</strong> $$ \frac{5}{6} $$</li>
-                        <li><strong>Paso 1:</strong> Dibujar un rectángulo y dividirlo en <strong>6</strong> partes iguales (Denominador).</li>
-                        <li><strong>Paso 2:</strong> Colorear o marcar <strong>5</strong> de esas partes (Numerador).</li>
-                        <li><strong>Resultado:</strong> La parte coloreada representa cinco sextos del total.</li>
-                    </ul>
+                    <div class="fraction-visual">
+                        <div class="rectangle-container">
+                            <svg width="300" height="60" viewBox="0 0 300 60">
+                                <!-- Rectangle divided into 6 parts -->
+                                <rect x="0" y="0" width="300" height="60" fill="#f0f0f0" stroke="#333" stroke-width="1"/>
+                                <line x1="50" y1="0" x2="50" y2="60" stroke="#333" stroke-width="1"/>
+                                <line x1="100" y1="0" x2="100" y2="60" stroke="#333" stroke-width="1"/>
+                                <line x1="150" y1="0" x2="150" y2="60" stroke="#333" stroke-width="1"/>
+                                <line x1="200" y1="0" x2="200" y2="60" stroke="#333" stroke-width="1"/>
+                                <line x1="250" y1="0" x2="250" y2="60" stroke="#333" stroke-width="1"/>
+                                <!-- Colored parts (5/6) -->
+                                <rect x="0" y="0" width="50" height="60" fill="#4CAF50" fill-opacity="0.7"/>
+                                <rect x="50" y="0" width="50" height="60" fill="#4CAF50" fill-opacity="0.7"/>
+                                <rect x="100" y="0" width="50" height="60" fill="#4CAF50" fill-opacity="0.7"/>
+                                <rect x="150" y="0" width="50" height="60" fill="#4CAF50" fill-opacity="0.7"/>
+                                <rect x="200" y="0" width="50" height="60" fill="#4CAF50" fill-opacity="0.7"/>
+                                <text x="275" y="30" text-anchor="middle" dominant-baseline="middle" font-size="16" font-weight="bold">5/6</text>
+                            </svg>
+                        </div>
+                        <ul>
+                            <li><strong>Fracción:</strong> $$ \frac{5}{6} $$</li>
+                            <li><strong>Paso 1:</strong> Dibujar un rectángulo y dividirlo en <strong>6</strong> partes iguales (Denominador).</li>
+                            <li><strong>Paso 2:</strong> Colorear o marcar <strong>5</strong> de esas partes (Numerador).</li>
+                            <li><strong>Resultado:</strong> La parte coloreada representa cinco sextos del total.</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="activity-container">
+                    <img src="./imagenes/6-10.png" alt="6-10">
                     <h4 class="activity-title">🚀 Actividad 1: Identificación</h4>
                     <p>Si un grupo de 10 estudiantes, 4 son niñas y 6 son niños, ¿qué fracción del grupo total representan los niños?</p>
                     <details>
